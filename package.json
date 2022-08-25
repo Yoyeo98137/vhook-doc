@@ -1,0 +1,19 @@
+{
+  "name": "vhooks-doc",
+  "version": "1.0.0",
+  "description": "Vue3 hooks",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --port 5759",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "author": "yeo",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.10"
+  },
+  "dependencies": {
+    "element-plus": "^2.2.14"
+  }
+}
